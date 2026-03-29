@@ -1,8 +1,8 @@
-# Title: LoadSense: FPGA-Accelerated Edge AI for Real-Time Peak Demand Shaving and Smart Energy Management
+# LoadSense: FPGA-Accelerated Edge AI for Real-Time Peak Demand Shaving and Smart Energy Management
 # FPGA Hackathon 2026: Technical Report 
 
-**Team Member Names and Email IDs:** [To be filled]  
-**Affiliation:** [To be filled]  
+**Team Member Names and Email IDs:** Adarsh Balaji (f20242429@hyderabad.bits-pilani.ac.in), Mukund Ashrith Srimal (f20240389@hyderabad.bits-pilani.ac.in)  
+**Affiliation:** BITS Pilani, Hyderabad Campus  
 **Application Domain:** Smart Energy System  
 
 ---
@@ -110,7 +110,7 @@ The implementation followed the professional Xilinx Vivado Design Suite flow to 
 ## 9. Functional Verification and Simulation
 
 ### 9.1 Testbench Methodology
-<img src="./block_diagram.png" alt="System Level Verification Block Diagram" style="width: 1000px; max-width: 100%;">
+<img src="./block_diagram.jpeg" alt="System Level Verification Block Diagram" style="width: 1000px; max-width: 100%;">
 
 To fully validate the FSM logic and user strategies, the testbench executes a specific chronological sequence of events:
 - **Initialization:** The system is held in reset (`rst = 1`) to clear all registers. The base configuration is applied, including the target `user_strategy`, a base `current_time` (10), and a target `reschedule_time` (50). All input data is initialized to zero.
